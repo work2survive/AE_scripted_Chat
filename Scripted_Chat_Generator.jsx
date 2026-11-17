@@ -880,11 +880,17 @@
 
     function getConversationFolder() {
         var base = getScriptBaseFolder();
-        var convFolder = new Folder(base.fsName + "/conversation");
-        if (!convFolder.exists) {
-            try { convFolder.create(); } catch (e) {}
-        }
-        return convFolder;
+        var targetPath = (base && base.fsName ? base.fsName : ".") + "/conversation";
+        try {
+            if (typeof Folder !== "undefined") {
+                var convFolder = new Folder(targetPath);
+                if (!convFolder.exists) {
+                    try { convFolder.create(); } catch (e) {}
+                }
+                return convFolder;
+            }
+        } catch (e2) {}
+        return makeFallbackFolder(targetPath);
     }
 
     function ensureConversationFiles() {
