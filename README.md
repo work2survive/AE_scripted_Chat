@@ -1,5 +1,14 @@
 # AE Scripted Chat Generator (`Scripted_Chat_Generator.jsx`)
 
+[![Live Browser Simulator](https://img.shields.io/badge/Live%20Demo-AE%20ScriptUI%20Simulator-2c8cff?style=for-the-badge&logo=javascript)](https://work2survive.github.io/AE_JS_builder/?jsx=Scripted_Chat_Generator.jsx&autobuild=true)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-CS6%20--%20CC%202026%2B-9999FF?style=for-the-badge&logo=adobeaftereffects)](https://www.adobe.com/products/aftereffects.html)
+[![Built with Antigravity](https://img.shields.io/badge/Built%20With-Antigravity-4285F4?style=for-the-badge&logo=google)](https://deepmind.google/)
+
+**Live Browser Demo**: [https://work2survive.github.io/AE_JS_builder/?jsx=Scripted_Chat_Generator.jsx&autobuild=true](https://work2survive.github.io/AE_JS_builder/?jsx=Scripted_Chat_Generator.jsx&autobuild=true)
+
+> **Live Browser Simulator**: Test and preview this tool interactively in the [AE JS & ScriptUI Simulator](https://work2survive.github.io/AE_JS_builder/?jsx=Scripted_Chat_Generator.jsx&autobuild=true) directly in your browser without launching After Effects!
+
 An Adobe After Effects ScriptUI panel (`.jsx`) that generates **fully animated, multi-message chat conversations**—similar to [FakeDetail](https://fakedetail.com/), but with procedural vector shapes, real-time expressions, automatic timestamps, independent real vs. fake delays, and automatic vertical overflow scrolling in After Effects.
 
 Built on top of the single-bubble engine from **[AE_message_bubble](https://github.com/work2survive/AE_message_bubble)**.
