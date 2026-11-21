@@ -6,6 +6,7 @@
     "Android RCS": {
       "label": "Android RCS style",
       "radius": 18,
+      "bubbleGap": 18,
       "tailType": "modern",
       "font": "Roboto (Google / Android)",
       "fontIndex": 1,
@@ -67,6 +68,7 @@
     "iOS Message": {
       "label": "iOS message style",
       "radius": 18,
+      "bubbleGap": 18,
       "tailType": "ios",
       "font": "SF Pro (Apple / iOS)",
       "fontIndex": 0,
@@ -130,6 +132,7 @@
     "WhatsApp": {
       "label": "WhatsApp style",
       "radius": 8,
+      "bubbleGap": 14,
       "tailType": "classic",
       "font": "Helvetica Neue",
       "fontIndex": 3,
@@ -188,6 +191,7 @@
     "Instagram": {
       "label": "Instagram style",
       "radius": 20,
+      "bubbleGap": 18,
       "tailType": "none",
       "font": "SF Pro (Apple / iOS)",
       "fontIndex": 0,
@@ -247,6 +251,7 @@
     "Facebook Messenger": {
       "label": "Messenger style",
       "radius": 18,
+      "bubbleGap": 14,
       "tailType": "none",
       "font": "Segoe UI (Windows)",
       "fontIndex": 2,
@@ -306,6 +311,7 @@
     "Telegram": {
       "label": "Telegram style",
       "radius": 14,
+      "bubbleGap": 14,
       "tailType": "classic",
       "font": "Open Sans",
       "fontIndex": 6,
@@ -366,6 +372,7 @@
     "Discord": {
       "label": "Discord style",
       "radius": 12,
+      "bubbleGap": 18,
       "tailType": "none",
       "font": "Inter",
       "fontIndex": 5,
@@ -427,6 +434,7 @@
     "Custom": {
       "label": "Custom Preset",
       "radius": 18,
+      "bubbleGap": 18,
       "tailType": "modern",
       "font": "System Default",
       "fontIndex": 7,

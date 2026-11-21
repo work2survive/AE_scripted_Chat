@@ -21,7 +21,7 @@
       "textSize": 20,
       "innerPaddingOffset": 0,
       "leadingPercent": 100,
-      "bubbleGap": 12
+      "bubbleGap": 18
     },
     "appearance": {
       "showTail": true,
